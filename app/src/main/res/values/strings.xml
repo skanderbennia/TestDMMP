@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Test DMMP</string>
+    <string name="my_space_string">My Space</string>
+    <string name="todo">TODO</string>
+    <string name="copyright_isamm_2021">Copyright @ ISAMM 2021</string>
+    <string name="email_string">Email</string>
+    <string name="password_string">Mot de Passe</string>
+    <string name="enregistrer">S enregistrer</string>
+    <string name="oublier_mot_de_pass">Mot de passe oublié ?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="bonjour">Bonjour !! </string>
+    <string name="mercure_info">est la planète la plus proche du Soleil, ainsi que la plus petite (4 878 km de diamètre) et la moins massive avec un peu plus du vingtième de la masse terrestre</string>
+    <string name="venus_info">est la planète la plus proche de la Terre en taille (0,95 rayon terrestre) et en masse (0,815 masse terrestre), faisant qu elle est parfois appelée sa «planète sœur ». Comme elle, Vénus possède également un épais manteau de silicate entourant un noyau métallique, une atmosphère significative et une activité géologique interne</string>
+    <string name="terre_info">est la plus grande (12 756 km de diamètre), la plus massive et la plus dense des planètes du Système solaire. Elle est notamment le seul objetcéleste connu pour abriter la vie</string>
+    <string name="mars_info">est deux fois plus petite que la Terre et Vénus, et fait seulement environ le dixième de la masse terrestre. Sa période de révolution autour du Soleil est de 687 jours terrestres et sa journée dure 24 heures et 39 minutes.</string>
+    <string name="jupiter_info">avec 318 masses terrestres, est aussi massive que 2,5 fois toutes les autres planètes réunies et son diamètre avoisine les 143 000 kilomètres. Sa période de révolution est d environ 12 ans et sa période de rotation estd un peu moins de 10 heures</string>
+    <string name="saturn_info">possède des caractéristiques similaires à Jupiter, telles que sa composition atmosphérique et sa puissante magnétosphère. Bien qu elle fasse 60 % du volume de l autre planète géante gazeuse du fait de son diamètre équatorial d environ 121 000 kilomètres, elle est beaucoup moins massive avec 95 masses terrestres.</string>
+    <string name="uranus_info"> est la moins massive des planètes géantes avec 14 masses terrestres. Avec son diamètre d environ 51 000 kilomètres, elle demeure plus grande que sa presque jumelle Neptune en raison de la compression gravitationnelle de cette dernière.</string>
+    <string name="neptune_info">est la planète la plus éloignée du Soleil connue au sein du Système solaire. Légèrement plus massive qu Uranus avec 17 masses terrestres, elle est par conséquent plus dense avec un diamètre équatorial d environ 49 500 kilomètres par compression gravitationnelle</string>
+    <string name="pluton_info">a perdu son statut de neuvième planète du Système solaire. A la suite d’un vote de l’Union astronomique internationale, elle s’est vue rétrogradée en planète naine. La raison principale de ce changement d’appellation provient d’une redéfinition de ce qu’est une planète.</string>
+    <string name="mercure_name">mercure</string>
+    <string name="venus_name">venus</string>
+    <string name="terre_name">terre</string>
+    <string name="mars_name">mars</string>
+    <string name="jupiter_name">jupiter</string>
+    <string name="saturn_name">saturn</string>
+    <string name="uranus_name">uranus</string>
+    <string name="neptune_name">neptune</string>
+    <string name="pluton_name">pluton</string>
+
+</resources>
