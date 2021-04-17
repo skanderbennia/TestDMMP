@@ -26,9 +26,9 @@ class LoginActivity : AppCompatActivity() {
         }
         findViewById<Button>(R.id.btn_login).setOnClickListener{
            val email_input = findViewById<EditText>(R.id.id_email).text
-            val intent = Intent(this,NavActivity::class.java).apply{
-                putExtra("Email", email_input.toString())
-            }
+            val intent = Intent(this,NavActivity::class.java)
+                intent.putExtra("email",email_input.toString())
+
             startActivity(intent)
         }
     }

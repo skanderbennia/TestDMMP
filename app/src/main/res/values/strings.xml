@@ -28,5 +28,6 @@
     <string name="uranus_name">uranus</string>
     <string name="neptune_name">neptune</string>
     <string name="pluton_name">pluton</string>
+    <string name="suivant_text">Suivant</string>
 
 </resources>

@@ -1,6 +1,8 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
+
 }
 
 android {
@@ -9,6 +11,7 @@ android {
 
     buildFeatures {
         dataBinding true
+        viewBinding true
     }
     defaultConfig {
         applicationId "com.example.testdmmp"
