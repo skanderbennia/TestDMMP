@@ -10,60 +10,98 @@
            name="game"
             type="com.example.testdmmp.QuizFragment"/>
     </data>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1" >
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        tools:viewBindingIgnore="true">
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="match_parent"
-        android:layout_height="293dp"
-        android:src="@drawable/sys_solaire" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@{game.currentQuestion.text}"
-        android:textSize="18sp" />
+        android:orientation="vertical">
 
-    <RadioGroup
-        android:id="@+id/questionRadioGroup"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_marginTop="90dp">
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="293dp"
+            android:src="@drawable/sys_solaire" />
 
-        <RadioButton
-            android:id="@+id/secondAnswerRadioButton"
+        <TextView
+            android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{game.answers[0]}" />
+            android:text="@{game.currentQuestion.text}"
+            android:textSize="18sp" />
 
-        <RadioButton
-            android:id="@+id/thirdAnswerRadioButton"
+        <TextView
+            android:id="@+id/score_show"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{game.answers[1]}" />
+            tools:textAlignment="center" />
 
-        <RadioButton
-            android:id="@+id/fourthAnswerRadioButton"
+        <TextView
+            android:id="@+id/bestScore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@{game.answers[2]}" />
+            android:visibility="invisible" />
 
-        <Button
-            android:id="@+id/submitButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/suivant_text"
-            tools:layout_gravity="center_horizontal"
-            tools:layout_marginTop="50dp" />
+        <RadioGroup
+            android:id="@+id/questionRadioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_marginTop="30dp">
 
-    </RadioGroup>
+            <RadioButton
+                android:id="@+id/secondAnswerRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{game.answers[0]}" />
+
+            <RadioButton
+                android:id="@+id/thirdAnswerRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{game.answers[1]}" />
+
+            <RadioButton
+                android:id="@+id/fourthAnswerRadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{game.answers[2]}" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/reset_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:text="Reset" />
+
+                <Button
+                    android:id="@+id/submitButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:gravity="center"
+                    android:text="@string/suivant_text"
+                    tools:layout_gravity="center"
+                    tools:layout_marginTop="20dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp" />
+
+        </RadioGroup>
 
     </LinearLayout>
-
+</ScrollView>
 </layout>
